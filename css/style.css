@@ -1,1 +1,45 @@
+html {
+    background-color: #CCC;
+}
 
+header {
+    background-color: #8908df;
+    display: block;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+main {
+    background: linear-gradient(#8908df, #CCC);
+}
+
+.form {
+    padding: 15px 0 15px 0;
+    margin-left: 25%;
+    width: 50%;
+    display: block;
+    text-align: center;
+    border: 3px outset rgb(170, 170, 170);
+    border-radius: 15px;
+    background: #EEE;
+}
+
+.input-text {
+    display: block;
+}
+
+#checkbox-text {
+    font-size: 0.75em;
+}
+
+footer {
+    background-color: #CCC
+}

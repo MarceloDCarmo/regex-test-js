@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Regex Test</title>
@@ -7,7 +8,34 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <header>
+        <h1 class="titulo">Expressões Regulares</h1>
+        <h3 class="titulo">Teste suas Regex</h3>
+    </header>
+    <main>
+        <form class="form">
+            <div class="mb-3">
+                <label class="form-label">String alvo (Target)<input id="target" class="input-text" type="text"></label>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Padrão (Pattern)<input id="pattern" class="input-text" type="text"></label>
+            </div>
+            <button class="btn btn-primary">Regex</button>
+            <div class="mb-3">
+                <label id="checkbox-text" class="form-label"><input type="checkbox" value=""> Mostrar grupos</label>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Resultados (Matches)<input id="matches" class="input-text"
+                        type="text"></label>
+            </div>
+        </form>
+    </main>
     <script src="js/bootstrap.js"></script>
+    <script src="js/regex.js"></script>
 </body>
+
 </html>
